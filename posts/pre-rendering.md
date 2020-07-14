@@ -1,5 +1,5 @@
 ---
-title: 'Two Forms of Pre-rendering'
+title: 'Title of blog post1'
 date: '2020-01-01'
 ---
 
