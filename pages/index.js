@@ -2,18 +2,31 @@ import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
+import styles from "../components/layout.module.css";
 
 export default function Home() {
   return (
-    <Layout home>
+    <div className="container">
       <Head>
-        <title>{siteTitle}</title>
+        <title>Portfolio </title>
       </Head>
+      <header className={styles.header}>
+        <img
+          src="/images/profile.jpg"
+          className={`${utilStyles.headerHomeImage} ${utilStyles.borderCircle}`}
+          alt=""
+        />
+        <h1 className={utilStyles.heading2Xl}>Natalia Marek</h1>
+
+        <title>{siteTitle}</title>
+        <p> </p>
+      </header>
+
       <section className={utilStyles.headingMd}>
         <p>Hello, I'm Natalia. I'm a Junior Software Developer.</p>
         <p>
-          Before I started coding I have been working as a Behaviour therapist
-          with children and young people with autism.
+          I am passionate about technology, innovation, accessibility and social
+          justice.
         </p>
         <ul>
           <li>JavaScript</li>
@@ -28,6 +41,6 @@ export default function Home() {
           </Link>
         </p>
       </section>
-    </Layout>
+    </div>
   );
 }

@@ -11,10 +11,7 @@ export default function Layout({ children, home }) {
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
+
         <meta
           property="og:image"
           content={`https://og-image.now.sh/${encodeURI(
@@ -56,7 +53,32 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
-      <footer className="footer"> Created with love 🌱 </footer>
+      <footer className="footer">
+        <a className={styles.img} href="https://twitter.com/Molly__Millions">
+          <img
+            align="left"
+            alt="Natalia's Twitter"
+            width="22px"
+            src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg"
+          />
+        </a>
+        <a className={styles.img} href="http://www.linkedin.com/in/natalia-mar">
+          <img
+            align="left"
+            alt="Natalia's Linkdein"
+            width="22px"
+            src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg"
+          />
+        </a>
+        <a className={styles.img} href="https://github.com/ripleycmd">
+          <img
+            align="left"
+            alt="Natalia's Github"
+            width="22px"
+            src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"
+          />
+        </a>{" "}
+      </footer>
     </div>
   );
 }

@@ -8,6 +8,20 @@ body {
   font-size: 18px;
 }
 
+.container {
+  max-width: 36rem;
+  margin: 3rem auto 6rem;
+  margin-top: 3em;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -28,4 +42,8 @@ img {
 
 p {
   text-align: justify;
+}
+
+.main-projects {
+  width: 900px;
 }
