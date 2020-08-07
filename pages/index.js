@@ -37,7 +37,7 @@ export default function Home() {
         </ul>
         <p>
           Find out more about my work over{" "}
-          <Link href="/posts/Projects">
+          <Link href="/posts/projects">
             <a>here</a>
           </Link>
         </p>

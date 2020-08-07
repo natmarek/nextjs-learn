@@ -9,7 +9,7 @@ export default function FirstPost() {
         <title>Projects</title>
       </Head>
       <main className="main-projects">
-        <h1>Projects</h1>
+        <h1>About</h1>
         <h2>
           <Link href="/">
             <a>x</a>

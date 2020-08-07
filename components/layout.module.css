@@ -12,6 +12,18 @@
   align-items: center;
 }
 
+.navContainer {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.navLink {
+  background-color: beige;
+  color: black;
+}
+
 .header {
   display: flex;
   flex-direction: column;

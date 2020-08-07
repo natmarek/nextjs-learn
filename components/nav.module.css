@@ -1,0 +1,12 @@
+.navContainer {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.navLink {
+  color: black;
+  padding: 30px;
+}
