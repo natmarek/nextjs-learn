@@ -4,13 +4,13 @@ import styles from "./nav.module.css";
 export default function NavBar() {
   return (
     <div className={styles.navContainer}>
-      <Link href="/" passHref>
+      <Link href="/">
         <a className={styles.navLink}>Home</a>
       </Link>
-      <Link href="/posts/about" passHref>
+      <Link href="/posts/about">
         <a className={styles.navLink}> About</a>
       </Link>
-      <Link href="/posts/projects" passHref>
+      <Link href="/posts/projects">
         <a className={styles.navLink}>Projects</a>
       </Link>
     </div>
