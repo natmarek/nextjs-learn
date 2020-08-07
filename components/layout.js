@@ -1,10 +1,10 @@
-import Head from 'next/head'
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
-import Link from 'next/link'
+import Head from "next/head";
+import styles from "./layout.module.css";
+import utilStyles from "../styles/utils.module.css";
+import Link from "next/link";
 
-const name = 'Natalia Marek'
-export const siteTitle = 'Portfolio'
+const name = "Natalia Marek";
+export const siteTitle = "Portfolio";
 
 export default function Layout({ children, home }) {
   return (
@@ -37,23 +37,18 @@ export default function Layout({ children, home }) {
         ) : (
           <>
             <Link href="/">
-              <a>
-                <img
-                  src="/images/profile.jpg"
-                  className={`${styles.headerImage} ${utilStyles.borderCircle}`}
-                  alt={name}
-                />
-              </a>
+              <a></a>
             </Link>
             <h2 className={utilStyles.headingLg}>
               <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
+                <a className={utilStyles.colorInherit}></a>
               </Link>
             </h2>
           </>
         )}
       </header>
       <main>{children}</main>
+
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
@@ -61,6 +56,7 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
+      <footer className="footer"> Created with love 🌱 </footer>
     </div>
-  )
+  );
 }
