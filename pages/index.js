@@ -1,8 +1,9 @@
 import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout";
+import { name, siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import styles from "../components/layout.module.css";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
           className={`${utilStyles.headerHomeImage} ${utilStyles.borderCircle}`}
           alt=""
         />
-        <h1 className={utilStyles.heading2Xl}>Natalia Marek</h1>
+        <h1 className={utilStyles.heading2Xl}>{name}</h1>
 
         <title>{siteTitle}</title>
         <p> </p>
@@ -35,12 +36,13 @@ export default function Home() {
           <li>Python</li>
         </ul>
         <p>
-          View my projects over{" "}
-          <Link href="/posts/first-post">
+          Find out more about my work over{" "}
+          <Link href="/posts/Projects">
             <a>here</a>
           </Link>
         </p>
       </section>
+      <Footer />
     </div>
   );
 }

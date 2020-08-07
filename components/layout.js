@@ -2,8 +2,9 @@ import Head from "next/head";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
+import Footer from "./Footer";
 
-const name = "Natalia Marek";
+export const name = "Natalia Marek";
 export const siteTitle = "Portfolio";
 
 export default function Layout({ children, home }) {
@@ -53,32 +54,7 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
-      <footer className="footer">
-        <a className={styles.img} href="https://twitter.com/Molly__Millions">
-          <img
-            align="left"
-            alt="Natalia's Twitter"
-            width="22px"
-            src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg"
-          />
-        </a>
-        <a className={styles.img} href="http://www.linkedin.com/in/natalia-mar">
-          <img
-            align="left"
-            alt="Natalia's Linkdein"
-            width="22px"
-            src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg"
-          />
-        </a>
-        <a className={styles.img} href="https://github.com/ripleycmd">
-          <img
-            align="left"
-            alt="Natalia's Github"
-            width="22px"
-            src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"
-          />
-        </a>{" "}
-      </footer>
+      <Footer />
     </div>
   );
 }
