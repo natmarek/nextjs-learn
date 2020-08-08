@@ -10,11 +10,11 @@ export default function About() {
       </Head>
       <main className="main-projects">
         <h1>About</h1>
-        <h2>
+        {/* <h2>
           <Link href="/">
             <a>x</a>
           </Link>
-        </h2>
+        </h2> */}
         <p className="post">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit sed

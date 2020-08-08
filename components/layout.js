@@ -8,7 +8,7 @@ import NavBar from "./Nav";
 export const name = "Natalia Marek";
 export const siteTitle = "Portfolio";
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, projects }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -25,7 +25,7 @@ export default function Layout({ children, home }) {
       </Head>
       <NavBar />
       <header className={styles.header}>
-        {home ? (
+        {/* {projects ? (
           <>
             <img
               src="/images/profile.jpg"
@@ -45,14 +45,14 @@ export default function Layout({ children, home }) {
               </Link>
             </h2>
           </>
-        )}
+        )} */}
       </header>
       <main>{children}</main>
 
-      {!home && (
+      {!projects && (
         <div className={styles.backToHome}>
           <Link href="/">
-            <a>← Back to home</a>
+            <a>← Back to the landing page</a>
           </Link>
         </div>
       )}

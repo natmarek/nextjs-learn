@@ -25,15 +25,15 @@ export default function Home() {
 
       <section className={utilStyles.headingMd}>
         <p>Hello, I'm Natalia. I'm a Junior Software Developer.</p>
-        <p>
-          I am passionate about technology, innovation, accessibility and social
-          justice.
-        </p>
+        <p>My tech stack</p>
         <ul>
           <li>JavaScript</li>
           <li>React</li>
           <li>Next.js</li>
           <li>Python</li>
+          <li>AWS and Azure</li>
+          <li>SQL, MongoDB </li>
+          <li>Styled components, CSS modules </li>
         </ul>
         <p>
           Find out more about my work over{" "}

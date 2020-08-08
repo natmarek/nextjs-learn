@@ -1,0 +1,21 @@
+.mainContainer {
+  display: grid;
+  grid-template-columns: 600px 600px;
+  grid-gap: 60px;
+  align-items: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.img {
+  width: 400px;
+  height: 500px;
+  outline: 10px;
+}
