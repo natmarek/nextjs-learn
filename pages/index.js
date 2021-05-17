@@ -27,11 +27,10 @@ export default function Home() {
         <p>Hello, I'm Natalia. I'm a Associate Consultant and AWS Community Builder.</p>
         <p>Currently work on project using:</p>
         <ul>
-          <li>AWS</li>>
+          <li>Everything AWS</li>
           <li>React</li>
           <li>Next.js</li>
           <li>Python</li>
-          <li>Everything AWS</li>>
         </ul>
         <p>
            {" "}
