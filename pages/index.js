@@ -24,22 +24,21 @@ export default function Home() {
       </header>
 
       <section className={utilStyles.headingMd}>
-        <p>Hello, I'm Natalia. I'm a Junior Software Developer.</p>
-        <p>My tech stack</p>
+        <p>Hello, I'm Natalia. I'm a Associate Consultant and AWS Community Builder.</p>
+        <p>Currently work on project using:</p>
         <ul>
-          <li>JavaScript</li>
+          <li>AWS</li>>
           <li>React</li>
           <li>Next.js</li>
           <li>Python</li>
-          <li>AWS and Azure</li>
-          <li>SQL, MongoDB </li>
-          <li>Styled components, CSS modules </li>
+          <li>Everything AWS</li>>
         </ul>
         <p>
-          Find out more about my work over{" "}
+           {" "}
           <Link href="/posts/projects">
-            <a>here</a>
+            <a>Here</a>
           </Link>
+          you will find my blog.
         </p>
       </section>
       <Footer />
