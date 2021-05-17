@@ -35,7 +35,7 @@ export default function Home() {
         <p>
            {" "}
           <Link href="/posts/projects">
-            <a>Here</a>
+            <a>Here </a>
           </Link>
           you will find my blog.
         </p>
