@@ -34,7 +34,7 @@ export default function Home() {
         </ul>
         <p>
            {" "}
-          <Link href="/posts/projects">
+          <Link href="https://dev.to/nataliam">
             <a>Here </a>
           </Link>
           you will find my blog.
