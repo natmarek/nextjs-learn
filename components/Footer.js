@@ -3,7 +3,7 @@ import styles from "./layout.module.css";
 export default function Footer() {
   return (
     <footer className="footer">
-      <a className={styles.img} href="https://twitter.com/Molly__Millions">
+      <a className={styles.img} href="https://twitter.com/molly__millions">
         <img
           align="left"
           alt="Natalia's Twitter"
